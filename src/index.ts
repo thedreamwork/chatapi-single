@@ -253,6 +253,7 @@ async function main() {
       }
     );
   }
+  console.log(`🎉 Started chatgpt success!`);
   app.listen(process.env.PORT || 3000);
 }
 main();
